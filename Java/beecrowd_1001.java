@@ -7,11 +7,12 @@ public class Main {
         int A, B, X;
         A = sc.nextInt();
         B = sc.nextInt();
-        sc.close();
-
+       
         X = A + B;
 
         System.out.println("X = " + X);
+
+	sc.close();
 
     }
 }    

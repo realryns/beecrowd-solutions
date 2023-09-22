@@ -7,11 +7,11 @@ public class Main {
 
         int x = sc.nextInt();
         int y = sc.nextInt();
-        sc.close();
-
+        
         int prod = x * y;
 
         System.out.println("PROD = " + prod);
+	sc.close();
 
     }
 }

@@ -13,6 +13,8 @@ public class Main {
         int diff = A*B-C*D;
         
         System.out.println("DIFERENCA = " + diff);
+	
+	sc.close();
         
     }
 }

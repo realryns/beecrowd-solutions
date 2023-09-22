@@ -13,5 +13,7 @@ public class Main {
         System.out.printf("A=%.4f", A);
         System.out.println();
 
+	sc.close();
+
     }
 }

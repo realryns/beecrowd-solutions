@@ -8,12 +8,12 @@ public class Main {
         int code = sc.nextInt();
         int hours = sc.nextInt();
         double salary = sc.nextDouble();
-	sc.close();
         
         double totalSalary = hours * salary;
         
         System.out.println("NUMBER = " + code);
         System.out.printf("SALARY = U$ %.2f%n", totalSalary);
-        
+  	
+	sc.close();      
     }
 }
