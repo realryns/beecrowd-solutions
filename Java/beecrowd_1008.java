@@ -8,6 +8,7 @@ public class Main {
         int code = sc.nextInt();
         int hours = sc.nextInt();
         double salary = sc.nextDouble();
+	sc.close();
         
         double totalSalary = hours * salary;
         
